@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -p 8001",
     "clean": "gatsby clean"
   },
   "peerDependencies": {
@@ -19,6 +19,7 @@
     "react-dom": "^16.13.1"
   },
   "dependencies": {
+    "dotenv": "8.2.0",
     "npm-run-all": "^4.1.5"
   }
 }

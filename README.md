@@ -48,12 +48,12 @@ Create package.json
 {
   "name": "my_theme",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "clean": "gatsby clean"
   }
 }
 ```
