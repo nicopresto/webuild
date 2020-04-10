@@ -48,6 +48,13 @@ They can also listen on different ports via dotenv files:
 yarn run:all
 ```
 
+NOTE: this is just a starter, there is no content, so 'gatsby develop' will return a 404, which shows it is working.
+
+You can check that the 'theme' package is being picked up by 'site' with:
+```
+yarn workspaces info
+```
+
 ## Terminology
 **Lerna** is a useful tool for managing dependencies across multiple Packages in monorepos
 
