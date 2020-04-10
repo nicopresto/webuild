@@ -8,8 +8,8 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-  "run:site": "cd packages/blog && yarn develop",
-  "run:theme": "cd packages/shop && yarn develop",
+  "run:site": "cd packages/site && yarn develop",
+  "run:theme": "cd packages/theme && yarn develop",
   "run:all": "npm-run-all --parallel run:site run:theme"
   }
 }
