@@ -12,18 +12,27 @@ This repo differs from the [Gatsby starter theme workspace](https://www.gatsbyjs
 
 ## Structure
 I will be using this starter to build monorepo websites. This starter has:
+
 Packages/
+
 | site
+
 | theme
 
 An example of a monorepo web site might have:
 
 Packages/
+
 | site (with MD/MDX docs, images, content)
+
 | shared-ui (styling)
+
 | blog
+
 | CMS
+
 | notes
+
 | docs-viewer
 
 Each package can host separate capabilities of the website (e.g. the blog), including combinations of Gatsby themes, starters, and plugins. The site contains the content, mostly as Markdown.
