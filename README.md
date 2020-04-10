@@ -55,6 +55,9 @@ You can check that the 'theme' package is being picked up by 'site' with:
 yarn workspaces info
 ```
 
+## Common errors
+* You need to ensure that you are referencing packages by their name in package.json.
+
 ## Terminology
 **Lerna** is a useful tool for managing dependencies across multiple Packages in monorepos
 
