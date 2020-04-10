@@ -77,7 +77,7 @@ Add to new theme to root scripts in package.Jason
   "scripts": {
     "run:site": "cd packages/site && yarn develop",
     "run:theme": "cd packages/theme && yarn develop",
-    "run:theme": "cd packages/my_theme && yarn develop",
+    "run:my_theme": "cd packages/my_theme && yarn develop",
     "run:all": "npm-run-all --parallel run:site run:theme run:my_theme"
     }
 ```
