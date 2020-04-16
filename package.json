@@ -9,7 +9,8 @@
   },
   "scripts": {
   "run:site": "cd packages/site && yarn develop",
-  "run:theme": "cd packages/theme && yarn develop",
-  "run:all": "npm-run-all --parallel run:site run:theme"
+  "run:blog": "cd packages/blog && yarn develop",
+  "run:notes": "cd packages/notes && yarn develop",
+  "run:all": "npm-run-all --parallel run:site run:theme run:notes"
   }
 }
