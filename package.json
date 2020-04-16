@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "authoring-theme",
+  "name": "gatsby-starter-monorepo",
   "devDependencies": {
     "lerna": "^3.20.2"
   },
