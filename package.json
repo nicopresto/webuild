@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "gatsby-starter-monorepo",
+  "name": "webuild",
   "devDependencies": {
     "lerna": "^3.20.2"
   },
