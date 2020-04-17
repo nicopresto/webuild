@@ -29,7 +29,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.0.0",
-    "theme": "*"
+    "blog": "*"
   },
   "devDependencies": {
     "prettier": "2.0.4"
