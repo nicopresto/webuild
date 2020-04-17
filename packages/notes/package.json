@@ -19,6 +19,7 @@
     "react-dom": "^16.13.1"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby-theme-notes": "^1.2.22"
   }
 }
