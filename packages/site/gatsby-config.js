@@ -4,7 +4,6 @@ require("dotenv").config({
   path: `.env.${activeEnv}`,
 })
 
-
 module.exports = {
   siteMetadata: {
     title: `WeBuild basic site`,

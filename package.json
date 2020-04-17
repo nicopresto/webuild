@@ -11,6 +11,6 @@
   "run:site": "cd packages/site && yarn develop",
   "run:blog": "cd packages/blog && yarn develop",
   "run:notes": "cd packages/notes && yarn develop",
-  "run:all": "npm-run-all --parallel run:site run:theme run:notes"
+  "run:all": "npm-run-all --parallel run:site run:blog run:notes"
   }
 }
