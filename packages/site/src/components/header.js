@@ -27,6 +27,13 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h2 style={{
+        color: `white`,
+        textDecoration: `none`,
+      }}>
+        <a href={process.env.BLOG_URL}>Blog | </a>
+        <a href={process.env.NOTES_URL}>Notes</a>
+      </h2>
     </div>
   </header>
 )

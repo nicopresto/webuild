@@ -14,12 +14,8 @@ const IndexPage = () => (
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <ul>
-      <li><Link to="/page-2/">Go to page 2</Link></li>
-      <li><a href={process.env.BLOG_URL}>Go to Blog</a></li>
-      <li><a href={process.env.BLOG_URL}>Go to Notes</a></li>
-      <li><a href={process.env.BLOG_URL}>Go to Site</a></li>
-    </ul>
+    <li><Link to="/page-2/">Go to page 2</Link></li>
+
   </Layout>
 )
 

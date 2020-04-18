@@ -9,12 +9,7 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
-    <ul>
-      <li><Link to="/">Go to homepage</Link></li>
-      <li><a href={process.env.BLOG_URL}>Go to Blog</a></li>
-      <li><a href={process.env.BLOG_URL}>Go to Notes</a></li>
-      <li><a href={process.env.BLOG_URL}>Go to Site</a></li>
-    </ul>
+    <li><Link to="/">Go to homepage</Link></li>
   </Layout>
 )
 
