@@ -11,7 +11,9 @@ module.exports = {
       resolve: `gatsby-theme-notes`,
       options: {
         // basePath defaults to `/`
-        basePath: `/notes`,
+        basePath: `/`,
+        contentPath:`../../data/notes`,
+        assetPath:`../../data/`
       },
     },
   ],
